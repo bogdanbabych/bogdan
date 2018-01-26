@@ -1,0 +1,1 @@
+python3 md070crosslevenshteinPhon.py ../../../../../Indata/a030cognates/mcorpus/pattr-internet-ua-dict07.txt ../../../../../Indata/a030cognates/mcorpus/pattr-internet-ru-dict2.txt ua ru >../../../../../Indata/a030cognates/mcorpus/pattr-internet-crosslev-ua-ru07.txt

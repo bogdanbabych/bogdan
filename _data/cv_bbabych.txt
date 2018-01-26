@@ -1,0 +1,83 @@
+CURRICULUM VITAE
+
+
+Mr. Bogdan BABYCH
+Address: 	Centre for Translation Studies
+		School of Modern Languages and Cultures
+		University of Leeds
+		Leeds, LS2 9JT,  UK
+Phone:		+44 (0) 7986 / 73 65 23
+e-mail:		bogdan<at>comp.leeds.ac.uk
+
+Born:		28 April 1974
+Nationality:	Ukrainian
+
+EDUCATION / ACADEMIC DEGREES
+	2002 – present: “White Rose” PhD research student,
+	    the Centre for Translation Studies, University of Leeds, UK
+	    Thesis title: “Information Extraction techniques in Machine Translation”
+	    co-supervised by Prof. Tony Hartley (Leeds) and Prof. Yorick Wilks (Sheffield)
+		
+	1996-1999 –	Graduate student at the Language Information Fund 
+		and Institute of Linguistics
+		of the Ukrainian National Academy of Sciences
+		 		Areas of specialisation: 	Computational Linguistics
+								Ukrainian Syntax
+				“Candidate of Sciences” degree in Ukrainian Linguistics (2000)
+
+	1991-1996	Kyiv University (Ukraine), the Department of Philology;
+				the “Specialist” degree in Computational Linguistics 
+				and Ukrainian (1996)
+		
+
+EMPLOYMENT / WORK EXPERIENCE
+	2000 – 2001: “Lernout & Hauspie Speech Products NV, Ieper, Belgium
+      	Corporate R&D, Linguistic Engineering Department, Text to Speech division
+		– Computational Linguist
+
+	1999 – 2000: Language Information Fund, Ukrainian National Academy of Sciences
+		– Research fellow
+
+
+PROGRAMMING SKILLS
+      Java, Prolog; Perl
+
+
+LANGUAGES
+Ukrainian, Russian, English, Spanish, German
+
+RECENT PUBLICATIONS
+Babych B., Hartley A. 2003. Improving Machine Translation quality with automatic Named Entity recognition. In: EACL 2003, 10th Conference of the European Chapter. Proceedings of the 7th International EAMT workshop on MT and other language technology tools. Improving MT through other language technology tools. Resources and tools for building MT. April 13th 2003, Budapest, Hungary. Pp. 1-8.
+
+Babych B., Hartley A., Atwell E., 2003. Statistical modelling of MT output corpora for Information Extraction. In: Proceedings of the Corpus Linguistics 2003 conference, edited by Dawn Archer, Paul Rayson, Andrew Wilson and Tony McEnery. Lancaster University (UK), 28 - 31 March 2003. Pp. 62-70.
+
+Babych B. 2004. Weighted N-gram model for evaluating Machine Translation output. In: CLUK `04. Proceedings of the 7th Annual Colloquium for the UK Special Interest Group for Computational Linguistics, edited by Mark Lee. University of Birmingham, 6-7th January, 2004. ISBN 07044 24533. Pp. 15-22.
+
+Babych B., Hartley A. 2004. Comparative Evaluation of Automatic Named Entity Recognition from Machine Translation Output. In: Proceedings of the Workshop on Named Entity Recognition for Natural Language Processing Applications. In Conjunction with the First International Joint Conference on Natural Language Processing (IJCNLP-04), Sanya, Hainan, 26 March 2004. (to appear).
+
+Babych B., Hartley A. 2004. Selecting Translation Strategies in MT using Automatic Named Entity Recognition. In: Proceedings of the EAMT 2004 Workshop, Malta, 26-27 April 2004.  (to appear).
+
+Babych B., Hartley A. 2004. Modelling legitimate translation variation for automatic evaluation of MT quality. In: LREC 2004. Proceedings of the 4th International Conference on Language Resources and Evaluation, Lisbon, Portugal, 26-27-28 May 2004., Volume III, Pp. 833-836. 
+
+Babych B., Elliott D., Hartley A. 2004. Calibrating resource-light automatic MT evaluation : a cheap approach to ranking MT systems by the usability of their output. In: LREC 2004. Proceedings of the 4th International Conference on Language Resources and Evaluation, Lisbon, Portugal, 26-27-28 May 2004., Volume VI, Pp. 2031-2034.
+
+Babych B., Hartley A. 2004. Extending the BLEU MT Evaluation Method with Frequency Weightings. In: ACL 2004. Proceedings of the 42nd Annual Meeting of the Association for Computational Linguistics, Barcelona, July 21-26, 2004. (to appear).
+
+Babych B., Elliott D., Hartley A. 2004. Extending MT evaluation tools with translation complexity metrics. In: COLING 2004. Proceedings of the 20th International Conference on Computational Linguistics, University of Geneva, Switzerland, August 23rd-27th, 2004. (to appear).
+
+      
+
+RESEARCH INTERESTS
+- Improving MT technology via IE techniques;
+- IE-based metrics for automatic MT evaluation;
+- Formal properties of human evaluation measures for MT;
+- Models for factual and stylistic information in text;
+- Parsing languages with high word order variation;
+- Machine learning of formal stochastic grammars;
+- Using synchronous Lexicalised Tree Adjoining Grammars for MT;
+- Data-driven synthesis of Slavonic inflectional paradigms
+
+
+
+
+Bogdan Babych  <bogdan@comp.leeds.ac.uk> 

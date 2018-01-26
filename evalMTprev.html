@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE>Open Source MT evaluation toolkit: Previous versions</TITLE>
+<META NAME="Generator" CONTENT="TextPad 4.0">
+<META NAME="Author" CONTENT="Bogdan Babych, Anthony Hartley">
+<META NAME="Keywords" CONTENT="Machine Translation, Evaluation">
+<META NAME="Description" CONTENT="Previous versions of the MT evaluation toolkit">
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#FF0000" VLINK="#800000" ALINK="#FF00FF" BACKGROUND="?">
+<A HREF="evalMT.html">go back</A>
+<P ALIGN="left">
+
+<H3>Previous versions</H3>
+<a href="_data/ltv-mt-eval.awk">Source AWK script</a><br>
+
+Works under GAWK v3.1.3 or higher, TAWK v5.0.<br>
+Warning: produces incorrect results under GAWK v3.0.4<br><br>
+
+Syntax:<br>
+gawk -f ltv-mt-eval.awk &ltfile with tested MT corpus&gt &ltfile with corpus of reference human translations&gt<br><br>
+
+The following annotation is assumed for delimiting texts within the files and aligning them:<br>
+&ltDOC doc_ID="someUniqueName" sys_ID="usually_file_name"&gt<br><br>
+
+&lt/DOC&gt<br><br>
+
+Corresponding texts in the second file should have the same doc_ID identifiers.<br><br>
+The output is the score for a tested system, based on evaluating the enrire corpus.<br>
+Tested on DARPA-94 MT evaluation corpus containing 100 news reports, about 350 words each.
+<p>
+
+
+</BODY>
+</HTML>

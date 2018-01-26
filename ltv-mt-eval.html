@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE>Open Source MT evaluation toolkit, University of Leeds, Centre for Translation Studies</TITLE>
+<META NAME="Generator" CONTENT="TextPad 4.6">
+<META NAME="Author" CONTENT="Bogdan Babych, Anthony Hartley">
+<META NAME="Keywords" CONTENT="automated MT evaluation WNM BLEU LTV Machine Translation">
+<META NAME="Description" CONTENT="Extension of BLEU with vector space model scores - ft.idf and S-scores">
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" BACKGROUND="?">
+<H2><A HREF="http://www.wien.gv.at/ma42/parks/stadtp.htm"><IMG SRC="_img/gnuMTev.jpg" ALT="Pinguine, Stadtpark--Wien" BORDER=0></A>    Open Source MT evaluation toolkit</H2>
+
+
+<H3><A HREF="http://www.leeds.ac.uk">University of Leeds</A>
+<BR><A HREF="http://www.leeds.ac.uk/cts/">Centre for Translation Studies</A> and <A HREF="http://www.comp.leeds.ac.uk">School of Computing</A></H3>
+<H4>Authors: <A HREF="http://www.comp.leeds.ac.uk/bogdan/">Bogdan Babych</A>, Anthony Hartley</H4>
+<H5>v01-1, 2004-05-17</H5>
+
+<H3>Download:</H3> <A HREF="_data/wnm-01-1.tar">TAR: wnm-01-1.tar</A>, <A HREF="_data/wnm-01-1.zip">Zip: wnm-01-1.zip</A>, <A HREF="_data/wnm-01-1.pl">Perl script only: wnm-01-1.pl</A>
+<BR><BR>
+<H3>Description:</H3>
+WNM (weighted N-gram model) - automated MT evaluation toolkit based on Weighted N-gram Model
+<BR>
+implements a rough model of legitimate translation variation (LTV)<BR>
+v01.1, 2004-05-17
+
+<PRE>
+#########################################################
+purpose:	scores Machine Translation output; the scores correlate with human evaluations of
+		adequacy and fluency
+usage: 		perl wnm-01-1.pl &ltevaluated-text&gt &lthuman-reference-text&gt &ltcorpusFrequencyFile&gt
+example:	perl wnm-01-1.pl te01sysA-base.txt te00humanRef.txt wnm-frqEnglish-darpa94e.txt &gt&gt wnm-results.txt
+
+requires: a corpus statistics file in the following format:
+word;FrequencyInCorpus;NumberOfTextsWhereFound
+
+the header of the corpus statistics file should be:
+&ltCorpStat&gt;NumberOfTokensInCorpus;NumberOfTextsInCorpus
+
+2 corpus statistics files for English are included (the 2 files are created on 2 different human reference translations)
+
+sample output:
+MT-TEXT:tw01sysA-base.txt;wnm-RECALL-ADEQUACY:0.2221;wnm-FSCORE-FLUENCY:0.2788
+;DETAILS:
+;tw01sysA-base.txt;bP:0.2896;bR:0.3442;bF:0.3146
+;tw01sysA-base.txt;wP:0.3745;wR:0.2221;wF:0.2788
+
+
+#########################################################
+# NOTE: v01-1 AT THE MOMENT EACH FILE IS TREATED AS A SINGLE TEXT (THEREFORE NO TEXT/SEGMENT MARKUP IS REQUIRED)
+# IF YOU EVALUATE A LARGE COLLECTION OF TEXTS, PUT EACH TEXT INTO A DIFFERENT FILE AND COMPUTE AVERAGE SCORES
+#########################################################
+
+#########################################################
+authors:
+	Bogdan Babych &ltbogdan &ltat&gt comp.leeds.ac.uk&gt
+	Tony Hartley &lta.hartley &ltat&gt leeds.ac.uk&gt
+		Centre for Translation Studies,
+		University of Leeds, England, UK
+
+</PRE>
+<H3>Principle of evaluation:</H3>
+
+
+<P ALIGN="left">The tool implements a method of MT evaluation that combines BLEU (Papineni et al., 2002) with weights of statistical salience from vector space model, such as S-scores (Babych, Hartley, Atwell, 2003), which are similar to TF.IDF scores (Salton, Lesk, 1968)
+
+
+<P ALIGN="left">The method is described in (Babych, 2004), (Babych, Hartley, 2004a), (Babych, Hartley, 2004b). The paper (Babych, Hartley, 2004a) deals with the relation of the frequency salience weights and legitimate tranlation variation (LTV)
+
+<P ALIGN="left">The method has been tested for correlation with human scores on DARPA 94 MT evaluation corpus (White et al, 1994) and a corpus of e-mails / EU White Paper document (Babych, Hartley, Atwell, 2004)
+
+
+
+<P ALIGN="left">
+<H3>References</H3>
+<P ALIGN="left">
+<P ALIGN="left">Babych B, Hartley A, Atwell E. 2003. <i>Statistical Modelling of MT output corpora for Information Extraction. </i>In: <b>Proceedings of the Corpus Linguistics 2003 conference, edited by Dawn Archer, Paul Rayson, Andrew Wilson and Tony McEnery. Lancaster University (UK), 28 - 31 March 2003. Pp. 62-70. </b><A HREF="_data/CL03-bha12pt-v20.pdf">PDF</A>, <A HREF="_data/CL03-bha12pt-v20.doc">DOC</A>
+
+<P ALIGN="left">Babych B, Hartley A. 2004a. <i>Modelling legitimate translation variation for automatic evaluation of MT quality</i>, <b>LREC 2004 (forthcoming)</b>. <A HREF="_data/lrec04-bhe-678c.pdf">PDF</A>, <A HREF="_data/lrec04-bhe-678c.doc">DOC</A>
+
+<P ALIGN="left">Babych B, Hartley A. 2004b. <i>Extending BLEU MT Evaluation Method with Frequency Weighting</i>, <b>ACL 2004 (forthcoming)</b>. <A HREF="_data/acl04-fwbleu-bh.pdf">PDF</A>, <A HREF="_data/acl04-fwbleu-bh.doc">DOC</A>
+
+<P ALIGN="left">Babych B. 2004. <i>Weighted N-gram model for evaluating Machine Translation output</i>. <b>CLUK `04. Proceedings of the 7th Annual Colloquium for the UK Special Interest Group for Computational Linguistics. Unviersity of Birmingham 6-7 January, 2004. pp. 15-22.</b> <A HREF="_data/cluk04-babych.pdf">PDF</A>, <A HREF="_data/cluk04-babych.doc">DOC</A>
+
+<P ALIGN="left">Papineni K, Roukos S, Ward T, Zhu W-J. 2002 <i>BLEU: a method for automatic evaluation of machine translation. </i> <b>Proceedings of the 40th Annual Meeting of the Association for the Computational Linguistics (ACL), Philadelphia, July 2002, pp. 311-318.</b>
+
+<P ALIGN="left">Salton, G. and M.E. Lesk. 1968. <i>Computer evaluation of indexing and text processing. </i><b>Journal of the ACM, 15(1) , 8-36.</b>
+
+<P ALIGN="left">White, J., T. OConnell and F. OMara. 1994. <i>The ARPA MT evaluation methodologies: evolution, lessons and future approaches. </i><b>Proceedings of the 1st Conference of the Association for Machine Translation in the Americas. Columbia, MD, October 1994. pp. 193-205.</b>
+
+<P ALIGN="left"><A HREF="evalMTprev.html">Previous versions</A>
+
+</p>
+
+<br>
+Last update: 17.05.2004
+
+<br><br>
+
+<a href="http://123counters.com/stats/b/bogdanbabychltv/" target="_top"><img border="0" alt="Free Hit Counter" src="http://one.123counters.com/counter/index.php?u=bogdanbabychltv&s=a" ALIGN="middle" HSPACE="4" VSPACE="2"></a><br><a href="http://www.123counters.com/" target="_top"><font color="#666666">Free Counter</font></a>
+
+
+</p>
+
+<br>
+Last update: 17.05.2004
+
+
+</BODY>
+</HTML>
+
+

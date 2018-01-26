@@ -1,0 +1,14 @@
+1992-Babych-Comparative-textual-analysis-of-poetical-works-of-Taras-Shevchenko-and-Thomas-Moore.pdf
+1993-Babych-Architectonics-of-understanding-as-culturological-and-semantic-problem.pdf
+1993-Babych-Folklore-mentality-in-Ukrainian-steppe-region.pdf
+1994-Babych-Dyphtongs-in-Northern-Ukrainian-dialects-and-history-of-Ukrainian.pdf
+1995-Babych-Conceptual-Syntax-1995.pdf
+1995-Babych-Conceptual-syntax-of-surfice-syntactic-structures.pdf
+1997-Babych-Automatic-grammar-checking-for-sentence-level-errors.pdf
+1997-Babych-Representation-of-deep-syntactic-structures.pdf
+1999-Babych-Lexical-semantics-in-syntactic-structure-ua.pdf
+1999-Babych-Lexical-semantics-in-syntactic-structure.pdf
+2001-Babych-Language-identification-of-tokens-in-domain-names-and-urls.pdf
+2002-Babych-Electronic-syntactic-dictionary-of-Ukrainian-towards-the-problem-of-developing.pdf
+2013-Babych-S-et-al-Resources-for-hybrid-mt.pdf
+dropbox-public-publications.txt
